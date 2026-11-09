@@ -7,7 +7,7 @@ st.caption("※ 밤 10시 이후, 당신의 기분과 칼로리 상태에 따라
 # 2. Sidebar Zone
 with st.sidebar:
     st.header("⚙️ 내 정보 설정")
-    user_name = st.text_input("사용자 이름:", placeholder="예: 김인공")
+    user_name = st.text_input("사용자 별명:", placeholder="예: 김인공")
     mood = st.selectbox(
         "오늘의 기분 상태를 선택하세요:",
         ["😊 행복함", "😭 우울함", "🤯 스트레스 받음", "🥱 피곤함"]
